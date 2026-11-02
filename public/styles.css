@@ -120,6 +120,9 @@ a { color: var(--accent); }
 .card-num { font-weight: 800; color: var(--accent); font-size: 0.85rem; letter-spacing: 0.06em; margin: 0; }
 .card-status { margin-top: auto; padding-top: 12px; font-size: 0.83rem; font-weight: 600; color: var(--ink); text-transform: uppercase; letter-spacing: 0.05em; }
 .card-doi { font-size: 0.88rem; }
+.stat .stat-num { font-size: clamp(2.1rem, 4vw, 2.7rem); font-weight: 800; letter-spacing: -0.03em; color: var(--accent); margin: 0; }
+.stat .stat-caveat { margin-top: auto; padding-top: 12px; font-size: 0.8rem; color: var(--ink-soft); }
+.results-note { color: var(--ink-soft); max-width: 72ch; margin: 32px 0 0; font-size: 0.95rem; }
 
 .point { padding: 4px 0; }
 .point h3 { margin: 0 0 8px; font-size: 1.05rem; }

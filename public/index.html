@@ -19,6 +19,7 @@
         <a href="#os">The OS</a>
         <a href="#accountability">Accountability</a>
         <a href="#delivers">What it delivers</a>
+        <a href="#results">Results</a>
         <a href="#opensource">Open source</a>
         <a class="nav-cta" href="#contact">Get in touch</a>
       </nav>
@@ -135,6 +136,37 @@
             <p>Hash-chained history means anyone can re-run the checks and get the same result — reports your customers and regulators can trust.</p>
           </article>
         </div>
+      </div>
+    </section>
+
+    <section id="results" class="section">
+      <div class="container">
+        <h2>Measured results</h2>
+        <p class="section-lede">Headline numbers from the published experiments — each recomputable from frozen data.</p>
+        <div class="grid grid-3">
+          <article class="card stat">
+            <p class="stat-num">69%</p>
+            <h3>fewer input tokens</h3>
+            <p>Selective data loading versus full context on multi-document queries — confirmed on live commercial APIs with two model families.</p>
+            <p class="card-doi"><a href="https://doi.org/10.5281/zenodo.23481071">Qafiya paper</a></p>
+            <p class="stat-caveat">Synthetic corpora; input tokens measured.</p>
+          </article>
+          <article class="card stat">
+            <p class="stat-num">4.8×</p>
+            <h3>cheaper decisions</h3>
+            <p>The router matched the flagship model's accuracy score at $0.002018 versus $0.0096 — audited by 263 checks on 414 recorded decisions.</p>
+            <p class="card-doi"><a href="https://doi.org/10.5281/zenodo.23686367">Router paper</a></p>
+            <p class="stat-caveat">Six items per capability cell.</p>
+          </article>
+          <article class="card stat">
+            <p class="stat-num">99.9%</p>
+            <h3>fewer prompt tokens</h3>
+            <p>Selective memory loading versus full history at 1,000 records, with answer quality matched across all arms.</p>
+            <p class="card-doi"><a href="https://doi.org/10.5281/zenodo.23674290">Memory paper</a></p>
+            <p class="stat-caveat">Retrieval baseline intentionally naive.</p>
+          </article>
+        </div>
+        <p class="results-note">And a finding that shaped the design: the models tested failed every in-head arithmetic check (0/12) — so the OS computes values deterministically instead of asking a model to do arithmetic.</p>
       </div>
     </section>
 
