@@ -36,8 +36,9 @@ a { color: var(--accent); }
   z-index: 10;
 }
 .header-inner { display: flex; align-items: center; justify-content: space-between; height: 64px; }
-.brand { font-weight: 800; font-size: 1.15rem; color: var(--ink); text-decoration: none; letter-spacing: -0.02em; }
-.brand span { color: var(--accent); }
+.brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 1.15rem; color: var(--ink); text-decoration: none; letter-spacing: -0.02em; }
+.brand .brand-os { color: var(--accent); }
+.brand-logo { width: 34px; height: 34px; border-radius: 8px; background: #fff; border: 1px solid var(--line); }
 .nav { display: flex; gap: 22px; align-items: center; }
 .nav a { color: var(--ink-soft); text-decoration: none; font-size: 0.95rem; font-weight: 500; }
 .nav a:hover { color: var(--ink); }
@@ -118,6 +119,7 @@ a { color: var(--accent); }
 .card p { margin: 0; color: var(--ink-soft); font-size: 0.96rem; }
 .card-num { font-weight: 800; color: var(--accent); font-size: 0.85rem; letter-spacing: 0.06em; margin: 0; }
 .card-status { margin-top: auto; padding-top: 12px; font-size: 0.83rem; font-weight: 600; color: var(--ink); text-transform: uppercase; letter-spacing: 0.05em; }
+.card-doi { font-size: 0.88rem; }
 
 .point { padding: 4px 0; }
 .point h3 { margin: 0 0 8px; font-size: 1.05rem; }
