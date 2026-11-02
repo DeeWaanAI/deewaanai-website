@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DeeWaanAI OS — An open AI operating system that proves what it does</title>
+  <meta name="description" content="DeeWaanAI OS is an open AI operating system: provenance-carrying data, permission-scoped actions, and auditable model routing. Honesty as architecture. Free software, paid integration.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top">DeeWaanAI <span>OS</span></a>
+      <nav id="nav" class="nav" aria-label="Main">
+        <a href="#os">The OS</a>
+        <a href="#honesty">Honesty</a>
+        <a href="#usecases">Where it fits</a>
+        <a href="#business">Business model</a>
+        <a href="#research">Papers</a>
+        <a class="nav-cta" href="#contact">Get in touch</a>
+      </nav>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Open menu" aria-expanded="false">Menu</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">DeeWaanAI OS</p>
+        <h1>An open AI operating system that proves what it does.</h1>
+        <p class="lede">
+          Every record carries its provenance. Every model call is logged. Every headline number
+          recomputes from raw data — or it does not ship. Free software, open papers, paid integration.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#os">The six layers</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="os" class="section">
+      <div class="container">
+        <h2>The OS</h2>
+        <p class="section-lede">
+          Six layers. Each one is a software module and an academic paper — built in that order:
+          design brief, formal spec, running prototype, frozen experiments, paper draft.
+        </p>
+        <div class="grid">
+          <article class="card">
+            <p class="card-num">01</p>
+            <h3>Qafiya · data substrate</h3>
+            <p>Every record, log, and claim carries provenance and hash-chained history. Data is frozen before runs; a spine script recomputes every headline number from raw artifacts.</p>
+            <p class="card-status">Built · paper in revision</p>
+          </article>
+          <article class="card">
+            <p class="card-num">02</p>
+            <h3>View renderer</h3>
+            <p>A small grammar (dvr) for rendering views across layers. Frozen at v1.1, cross-rendered and monitor-verified.</p>
+            <p class="card-status">Built · draft</p>
+          </article>
+          <article class="card">
+            <p class="card-num">03</p>
+            <h3>Action layer</h3>
+            <p>Actions with permission scopes. An agent does only what a grant allows, and every action is a record.</p>
+            <p class="card-status">Built · draft</p>
+          </article>
+          <article class="card">
+            <p class="card-num">04</p>
+            <h3>Memory &amp; continuity</h3>
+            <p>Bound memory with a verified read path. What the system remembers is what it can prove it stored.</p>
+            <p class="card-status">Built · draft</p>
+          </article>
+          <article class="card">
+            <p class="card-num">05</p>
+            <h3>Model router</h3>
+            <p>Auditable routing: policy-based, budget-scoped. Every LLM call is decided by rules and logged. The paper's thesis: auditable routing.</p>
+            <p class="card-status">Built · paper draft</p>
+          </article>
+          <article class="card">
+            <p class="card-num">06</p>
+            <h3>Shell</h3>
+            <p>The distribution layer: the part that puts the OS on any machine. In design, waiting on its dependencies.</p>
+            <p class="card-status">In design</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="honesty" class="section section-alt">
+      <div class="container">
+        <h2>Honesty as architecture</h2>
+        <div class="grid grid-3">
+          <article class="point">
+            <h3>Claims trace to artifacts</h3>
+            <p>Every claim traces to a frozen artifact. A spine script recomputes each headline number from raw data; if the script fails, the number does not ship.</p>
+          </article>
+          <article class="point">
+            <h3>Failures are reported</h3>
+            <p>Negative and uncatchable results are reported as results — never hidden. The Qafiya paper's zero-recall classes are the template.</p>
+          </article>
+          <article class="point">
+            <h3>Limits are stated</h3>
+            <p>Each paper states what its system provably cannot do — measured where possible, not guessed.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="usecases" class="section">
+      <div class="container">
+        <h2>Where it fits</h2>
+        <p class="section-lede">Anywhere an AI touches consequential data or decisions, the question stops being "do you trust it?" and becomes "show me."</p>
+        <div class="grid grid-3">
+          <article class="point">
+            <h3>AI sales agents</h3>
+            <p>When an agent quotes a price, grants a discount, or makes a promise, each claim either traces to the catalog, the rules, and the conversation — or it is flagged. Providers get reports their customers, regulators, and courts can trust.</p>
+          </article>
+          <article class="point">
+            <h3>Document-heavy bureaus</h3>
+            <p>Passport and visa data entry with zero silent errors: every extracted field is verified against the document's own checksums, and mismatches go to a human before anything is submitted.</p>
+          </article>
+          <article class="point">
+            <h3>Any consequential AI</h3>
+            <p>Routing, memory, actions — all logged, all traceable. The OS turns "trust us" into "here are the receipts."</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="business" class="section section-alt">
+      <div class="container">
+        <h2>Free software. Paid integration.</h2>
+        <div class="grid grid-3">
+          <article class="point">
+            <h3>The OS is free</h3>
+            <p>AGPL-3.0. Fork it, run it, read every line. The code is the trust — no hidden tricks, no lock-in.</p>
+          </article>
+          <article class="point">
+            <h3>We are paid to fit it</h3>
+            <p>Every company has its own data and processes. Integration packages: connect your systems, map your data, build your reports, hand over. Fixed scope, fixed price, defined weeks.</p>
+          </article>
+          <article class="point">
+            <h3>Support grows with you</h3>
+            <p>As deployments grow: support subscriptions that keep the stack current and the reports running.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="section">
+      <div class="container">
+        <h2>Every layer is a paper</h2>
+        <p class="section-lede">No paper claims without a frozen artifact behind them. Artifact DOIs via Zenodo — announced with publication.</p>
+        <div class="grid">
+          <article class="card">
+            <h3>Qafiya: a data substrate that carries its own evidence</h3>
+            <p>Provenance-carrying records, hash-chained history, and a spine that recomputes every headline number. Draft in revision; code at <a href="https://github.com/DeeWaanAI/qafiya">github.com/DeeWaanAI/qafiya</a>.</p>
+            <p class="card-status">Layer 01 · draft</p>
+          </article>
+          <article class="card">
+            <h3>Auditable routing: policies, budgets, and logged decisions</h3>
+            <p>How an OS decides which model answers which request — by declared rules, within declared budgets, with every decision logged and recomputable. Spine-verified numbers.</p>
+            <p class="card-status">Layer 05 · draft</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact-box">
+        <h2>Get in touch</h2>
+        <p>
+          The code and the papers live on GitHub:
+          <a href="https://github.com/DeeWaanAI">github.com/DeeWaanAI</a>.
+        </p>
+        <p>For integrations and support, open an issue or start a discussion there. An email channel is coming.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 DeeWaanAI · Author: Youssef Hariri · AGPL-3.0</p>
+      <p class="footer-note">Built with the same discipline the OS preaches: no analytics, no trackers, no third-party scripts.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
