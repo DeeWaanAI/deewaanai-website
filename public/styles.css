@@ -62,6 +62,8 @@ a { color: var(--accent); }
 
 /* Hero */
 .hero { padding: 96px 0 72px; border-bottom: 1px solid var(--line); }
+.hero-grid { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 56px; align-items: center; }
+.hero-mark { width: 320px; height: 320px; border-radius: 20px; border: 1px solid var(--line); }
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.14em;
@@ -163,6 +165,8 @@ a { color: var(--accent); }
   }
   .nav.open { display: flex; }
   .hero { padding: 64px 0 56px; }
+  .hero-grid { grid-template-columns: 1fr; gap: 32px; }
+  .hero-mark { width: 200px; height: 200px; justify-self: center; order: -1; }
   .section { padding: 56px 0; }
   .contact-box { padding: 28px; }
 }
