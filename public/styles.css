@@ -71,7 +71,7 @@ a { color: var(--accent); }
   position: absolute; inset: 0;
   display: flex; align-items: center; justify-content: center;
   font-weight: 800; font-size: 1.7rem; letter-spacing: -0.02em;
-  color: var(--ink); pointer-events: none;
+  color: var(--accent); pointer-events: none;
 }
 .mark-tagline { font-size: 1.02rem; color: var(--ink-soft); letter-spacing: 0.02em; }
 .eyebrow {
