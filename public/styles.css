@@ -35,10 +35,10 @@ a { color: var(--accent); }
   border-bottom: 1px solid var(--line);
   z-index: 10;
 }
-.header-inner { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+.header-inner { display: flex; align-items: center; justify-content: space-between; height: 72px; }
 .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 1.15rem; color: var(--ink); text-decoration: none; letter-spacing: -0.02em; }
 .brand .brand-os { color: var(--accent); }
-.brand-logo { width: 34px; height: 34px; border-radius: 8px; background: #fff; border: 1px solid var(--line); }
+.brand-logo { width: 56px; height: 56px; border-radius: 10px; background: #fff; border: 1px solid var(--line); }
 .nav { display: flex; gap: 22px; align-items: center; }
 .nav a { color: var(--ink-soft); text-decoration: none; font-size: 0.95rem; font-weight: 500; }
 .nav a:hover { color: var(--ink); }
@@ -151,7 +151,7 @@ a { color: var(--accent); }
   .nav {
     display: none;
     position: absolute;
-    top: 64px;
+    top: 72px;
     left: 0;
     right: 0;
     flex-direction: column;
