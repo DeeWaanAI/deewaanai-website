@@ -64,6 +64,16 @@ a { color: var(--accent); }
 .hero { padding: 96px 0 72px; border-bottom: 1px solid var(--line); }
 .hero-grid { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 56px; align-items: center; }
 .hero-mark { width: 320px; height: 320px; border-radius: 20px; border: 1px solid var(--line); }
+.hero-brand { margin: 0; display: flex; flex-direction: column; align-items: center; gap: 14px; }
+.hero-mark-wrap { position: relative; width: 320px; height: 320px; }
+.hero-mark-wrap .hero-mark { width: 100%; height: 100%; }
+.mark-word {
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 800; font-size: 1.7rem; letter-spacing: -0.02em;
+  color: var(--ink); pointer-events: none;
+}
+.mark-tagline { font-size: 1.02rem; color: var(--ink-soft); letter-spacing: 0.02em; }
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.14em;
@@ -167,6 +177,10 @@ a { color: var(--accent); }
   .hero { padding: 64px 0 56px; }
   .hero-grid { grid-template-columns: 1fr; gap: 32px; }
   .hero-mark { width: 200px; height: 200px; justify-self: center; order: -1; }
+  .hero-brand { order: -1; }
+  .hero-mark-wrap { width: 200px; height: 200px; }
+  .mark-word { font-size: 1.05rem; }
+  .mark-tagline { font-size: 0.9rem; }
   .section { padding: 56px 0; }
   .contact-box { padding: 28px; }
 }
